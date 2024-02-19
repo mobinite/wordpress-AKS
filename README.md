@@ -26,6 +26,10 @@
 
 ![Alt text](Markdown/get%20nodes.png)
 
+#### Modify your Kustomize file
+![Alt text](Markdown/add%20password.png)
+
+
 - `kubectl apply -k ./`
 ![Alt text](Markdown/Apply%20k.png)
 
