@@ -56,3 +56,12 @@
 ### Now browse the External IP
 
 ![Alt text](Markdown/wp%20installation%20done.png)
+
+### Delete all 
+
+`kubectl delete -k ./`
+
+![alt text](<Markdown/delete apply.png>)
+
+### Delete Azure resources (Entire resouce group)
+`az group delete --name aks-rg --yes --no-wait`
