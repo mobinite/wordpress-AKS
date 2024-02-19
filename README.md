@@ -17,6 +17,12 @@
 
 #### Set the AKS Cluster Subscription
 `az account set --subscription ["Azure Subscription ID"]`
+#### create az resource group
+`az group create --name aks-rg --location eastus`
+
+#### create AKS cluster
+
+`az aks create --resource-group aks-rg --name myaks --node-count 1 --node-vm-size Standard_B2s --kubernetes-version 1.27.9 --generate-ssh-keys --enable-managed-identity --location eastus`
 
 #### Download Cluster Credentials
 `az aks get-credentials --resource-group ["Your Resource Group Name"] --name ["Your Cluster Name"] --overwrite-existing`
