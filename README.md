@@ -29,14 +29,15 @@
 #### Modify your Kustomize file
 ![Alt text](Markdown/add%20password.png)
 
-
 - `kubectl apply -k ./`
 ![Alt text](Markdown/Apply%20k.png)
 
 - `kubectl get pods`
 ![Alt text](Markdown/get%20pods.png)
+
 - `kubectl get svc`
 ![Alt text](Markdown/get%20svc.png)
+
 - `kubectl get all`
 ![Alt text](Markdown/get%20all.png)
 
